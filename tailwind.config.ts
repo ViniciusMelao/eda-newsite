@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        'montserrat': ['Montserrat', 'sans-serif'],
+        'advent-pro': ['Advent Pro', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -46,6 +50,12 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        brand: {
+          orange: "hsl(var(--brand-orange))",
+          black: "hsl(var(--brand-black))",
+          light: "hsl(var(--brand-light))",
+          beige: "hsl(var(--brand-beige))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
